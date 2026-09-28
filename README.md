@@ -36,15 +36,14 @@ An intelligent news Q&A agent built with LangChain and LangGraph. Using RAG (Ret
 - Columns: `category, filename, title, content`
 
 ## Tech Stack
-|-----|-------|
-| Tool	| Purpose
-| LangChain	| LLM chaining, prompt templates, RAG |
-|LangGraph |	Agent flow, state management |
-|Anthropic | Claude	LLM for answer generation |
-|FAISS |	Vector store for semantic search |
-|HuggingFace	| Sentence embeddings |
-|Pandas	|Dataset loading and processing |
-|-----|-------|
+| Tool | Purpose |
+|------|---------|
+| [LangChain](https://langchain.com) | LLM chaining, prompt templates, RAG |
+| [LangGraph](https://langgraph.com) | Agent flow, state management |
+| [Anthropic Claude](https://anthropic.com) | LLM for answer generation |
+| [FAISS](https://faiss.ai) | Vector store for semantic search |
+| [HuggingFace](https://huggingface.co) | Sentence embeddings |
+| [Pandas](https://pandas.pydata.org) | Dataset loading and processing |
 
 ## Setup
 1. Clone the repository
