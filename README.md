@@ -2,6 +2,8 @@
 
 An intelligent news Q&A agent built with LangChain and LangGraph. Using RAG (Retrieval Augmented Generation) to answer questions from BBC New articles (Source: Kaggle) with conversation memory.
 
+> **Heads up!** This repo is purely for learning purposes, just me exploring and experimenting. Nothing fancy here! 😄
+
 ## Features
 - RAG Pipeline: Retrieves relevant BBC news articles using FAISS vector search
 - LLM-powered answer: Using Claude (Anthropic) model to answer question from retrieved context (from RAG's retrieval)
